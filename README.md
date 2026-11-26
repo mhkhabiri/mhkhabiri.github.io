@@ -2,22 +2,16 @@
 
 Live site: **[https://mhkhabiri.github.io](https://mhkhabiri.github.io)**
 
-Bilingual (Persian / English) static portfolio showcasing my 40% → 70% AI & Finance execution track, flagship projects, public Build Log, and Protected Idea Vault.
+Bilingual (Persian / English) read-only static portfolio with editorial typography (`Gandom-WOL` + `Newsreader` + `JetBrains Mono`), 60/30/10 Obsidian/Emerald palette, and WCAG 2.2 motion restraint.
 
 ## Repository Structure
 
-- `index.html` — Main single-page portfolio (with embedded `Mikhak` & `Vazirmatn` variable WOFF2 fonts)
-- `projects.js` — Flagship projects list (edit this file to add/update projects)
-- `logs.js` — Build Log & Protected Idea Vault entries (edit this file to publish new logs)
+- `index.html` — Main single-page portfolio (with embedded `Gandom-WOL` & `Vazirmatn` Base64 fonts and portrait)
+- `projects.js` — Flagship projects list (supports `teaserFa`/`teaserEn`, full descriptions, and optional `url`)
+- `logs.js` — Build Log & Protected Idea Vault entries (supports optional `assetUrl` for PDF/HTML attachments)
 - `404.html` — Custom not-found page matching the site theme
 - `robots.txt` & `sitemap.xml` — Search engine indexing & sitemap configuration
 - `.nojekyll` — Disables Jekyll processing on GitHub Pages
-
-## How to Update Content
-
-1. **Add a new log or concept:** Edit `logs.js` directly on GitHub and add a new object at the top of `window.PORTFOLIO_LOGS`.
-2. **Update a project status:** Edit `projects.js` and change `status` to `'active'`, `'planned'`, or `'done'`.
-3. Commit to `main` — GitHub Pages automatically redeploys within 1–2 minutes.
 
 ## Links
 
